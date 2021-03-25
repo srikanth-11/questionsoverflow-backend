@@ -1,6 +1,6 @@
 const express = require('express')
 const jwt = require('jsonwebtoken')
-const User = require('../models/User')
+const User = require('../models/user')
 const validator = require('validator');
 const authenticate = require('../services/authentication');
 const MailService = require('../services/mail')
